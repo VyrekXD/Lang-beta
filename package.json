@@ -1,0 +1,19 @@
+{
+	"name": "lang-beta",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "",
+	"main": "build/index.js",
+	"scripts": {
+		"test": "nodemon --config nodemon.json"
+	},
+	"keywords": [],
+	"author": "Vyrek",
+	"license": "MIT",
+	"devDependencies": {
+		"@swc/cli": "^0.1.57",
+		"@swc/core": "^1.2.215",
+		"@types/node": "^18.0.4"
+	}
+}
+

@@ -1,0 +1,9 @@
+{
+	"restartable": "r",
+	"ignore": [".git", "node_modules/**/node_modules"],
+	"watch": ["src/**/*"],
+	"execMap": {
+		"js": "swc ./src -d build && node --experimental-json-modules ."
+	},
+	"ext": "ts,json"
+}

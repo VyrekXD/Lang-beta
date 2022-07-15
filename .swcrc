@@ -1,0 +1,25 @@
+{
+	"sourceMaps": "inline",
+	"module": {
+		"type": "es6",
+		"strict": true,
+		"strictMode": true,
+		"noInterop": false
+	},
+	"jsc": {
+		"externalHelpers": false,
+		"target": "es2022",
+		"parser": {
+			"syntax": "typescript",
+			"tsx": false,
+			"decorators": true,
+			"dynamicImport": true
+		},
+		"transform": {
+			"legacyDecorator": true,
+			"decoratorMetadata": false
+		},
+		"keepClassNames": true
+	},
+	"minify": false
+}
